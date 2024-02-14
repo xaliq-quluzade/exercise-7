@@ -47,8 +47,8 @@ public class Main {
         System.out.println("-------------------------");
         System.out.println("-------------------------");
 
-        for (Map.Entry<String, Double> key : employeeHashMap.entrySet()) {
-            System.out.println(key);
+        for (Map.Entry<String, Double> element : employeeHashMap.entrySet()) {
+            System.out.println(element);
         }
 
     }
